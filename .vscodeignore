@@ -1,0 +1,12 @@
+# Ignore build/output files
+out/test
+test
+.vscode-test
+
+# Ignore development config
+node_modules
+.vscode
+
+# Ignore unnecessary files
+*.log
+*.tsbuildinfo

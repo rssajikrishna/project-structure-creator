@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Structure Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Project Structure Creator</h1>
+      <p>Transform text into organized project structures instantly</p>
+    </div>
+
+    <div class="main-content">
+      <div class="input-section">
+        <div class="section-title">📝 Input Structure</div>
+        <div class="textarea-container">
+          <textarea id="structureInput" placeholder="Paste your structure here (indented or AI-style tree like ├──)">
+my-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   └── index.js
+└── README.md
+          </textarea>
+        </div>
+        <div class="controls">
+          <button class="btn btn-primary" id="createButton">📁 Create Structure</button>
+        </div>
+      </div>
+
+      <div class="output-section">
+        <div class="section-title">📂 Structure Preview</div>
+        <div class="file-tree" id="fileTree">
+          <!-- Preview will be populated dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <div class="status-indicator" id="status"></div>
+  </div>
+
+  <script src="main.js"></script>
+  <footer class="author-footer">
+  Developed by <a href="https://github.com/rssajikrishna" target="_blank">Saji Krishna</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "name": "project-structure-creator",
+  "displayName": "Project Structure Creator",
+  "description": "Generate folders/files from indented or ASCII tree-like text.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name", // <-- REQUIRED IF YOU PUBLISH TO MARKETPLACE
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/project-structure-creator"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Visualization",
+    "Other"
+  ],
+  "activationEvents": [
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "project-structure-creator.createStructure",
+        "title": "📁 Create Project Structure from Text"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext .ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.0.0",
+    "typescript": "^5.2.2",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
