@@ -16,9 +16,7 @@
 
 ## 📸 Screenshot
 
-> _Paste a screenshot image here if needed. For example:_
-
-![Demo Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/demo.gif)
+![Demo Screenshot](media/demo.png)
 
 ---
 
