@@ -25,7 +25,7 @@
 ## 🧪 Sample Input
 
 ### Type 1: ASCII Tree
-
+```
 my-app/
 ├── public/
 │ └── index.html
@@ -33,9 +33,9 @@ my-app/
 │ ├── App.tsx
 │ └── main.tsx
 └── README.md
-
+```
 ### Type 2: Space Indented
-
+```
 my-app/
 public/
 index.html
@@ -43,7 +43,7 @@ src/
 App.tsx
 main.tsx
 README.md
-
+```
 ---
 
 ## 🚀 Getting Started
